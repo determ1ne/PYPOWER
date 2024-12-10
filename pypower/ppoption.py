@@ -5,7 +5,7 @@
 """Used to set and retrieve a PYPOWER options vector.
 """
 
-from numpy import Inf
+from numpy import inf as Inf
 
 
 PF_OPTIONS = [

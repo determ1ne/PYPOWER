@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 
-from numpy import Inf
+from numpy import inf as Inf
 from pypower._compat import PY2
 from pypower.util import feval
 

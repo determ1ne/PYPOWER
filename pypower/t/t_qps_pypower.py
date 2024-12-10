@@ -5,7 +5,7 @@
 """Tests of C{qps_pypower} QP solvers.
 """
 
-from numpy import array, zeros, shape, Inf
+from numpy import array, zeros, shape, inf as Inf
 
 from scipy.sparse import csr_matrix as sparse
 
@@ -44,7 +44,7 @@ def t_qps_pypower(quiet=False):
                 opt['pips_opt'] = {}
                 opt['pips_opt']['comptol'] = 1e-8
             if names[k] == 'CPLEX':
-#               alg = 0        ## default uses barrier method with NaN bug in lower lim multipliers
+#               alg = 0        ## default uses barrier method with nan bug in lower lim multipliers
                 alg = 2        ## use dual simplex
                 ppopt = ppoption(CPLEX_LPMETHOD = alg, CPLEX_QPMETHOD = min([4, alg]))
                 opt['cplex_opt'] = cplex_options([], ppopt)

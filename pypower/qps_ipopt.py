@@ -7,7 +7,7 @@
 
 from sys import stderr
 
-from numpy import Inf, ones, zeros, shape, tril
+from numpy import inf as Inf, ones, zeros, shape, tril
 from numpy import flatnonzero as find
 
 from scipy.sparse import issparse, csr_matrix as sparse

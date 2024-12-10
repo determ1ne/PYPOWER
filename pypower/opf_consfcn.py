@@ -5,7 +5,7 @@
 """Evaluates nonlinear constraints and their Jacobian for OPF.
 """
 
-from numpy import zeros, ones, conj, exp, r_, Inf, arange
+from numpy import zeros, ones, conj, exp, r_, inf as Inf, arange
 
 from scipy.sparse import lil_matrix, vstack, hstack, csr_matrix as sparse
 

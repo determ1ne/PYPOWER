@@ -4,7 +4,7 @@
 
 from warnings import warn
 
-from numpy import array, ones, zeros, Inf, r_, c_, concatenate, shape
+from numpy import array, ones, zeros, inf as Inf, r_, c_, concatenate, shape
 from numpy import flatnonzero as find
 
 from scipy.sparse import spdiags, hstack, vstack, csr_matrix as sparse

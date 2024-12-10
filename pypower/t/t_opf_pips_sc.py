@@ -7,7 +7,7 @@
 
 from os.path import dirname, join
 
-from numpy import array, ones, zeros, Inf, r_, ix_, argsort, arange
+from numpy import array, ones, zeros, inf as Inf, r_, ix_, argsort, arange
 
 from scipy.io import loadmat
 from scipy.sparse import spdiags, csr_matrix as sparse

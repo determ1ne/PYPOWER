@@ -8,7 +8,7 @@
 from sys import stdout, stderr
 
 from numpy import array, any, delete, unique, arange, nonzero, pi, \
-    r_, ones, Inf
+    r_, ones, inf as Inf
 from numpy import flatnonzero as find
 
 from scipy.sparse import hstack, csr_matrix as sparse

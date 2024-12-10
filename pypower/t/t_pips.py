@@ -7,7 +7,7 @@
 
 from math import sqrt
 
-from numpy import zeros, ones, array, eye, prod, dot, ndarray, Inf
+from numpy import zeros, ones, array, eye, prod, dot, ndarray, inf as Inf
 
 from scipy.sparse import csr_matrix as sparse
 from scipy.sparse import eye as speye

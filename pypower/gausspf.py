@@ -7,7 +7,7 @@
 
 import sys
 
-from numpy import linalg, conj, r_, Inf, ndarray
+from numpy import linalg, conj, r_, inf as Inf, ndarray
 
 from pypower.ppoption import ppoption
 

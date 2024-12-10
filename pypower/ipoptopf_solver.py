@@ -5,7 +5,7 @@
 """Solves AC optimal power flow using IPOPT.
 """
 
-from numpy import ones, zeros, shape, Inf, pi, exp, conj, r_, arange
+from numpy import ones, zeros, shape, inf as Inf, pi, exp, conj, r_, arange
 from numpy import flatnonzero as find
 
 from scipy.sparse import issparse, tril, vstack, hstack, csr_matrix as sparse

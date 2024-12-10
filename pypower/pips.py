@@ -5,7 +5,7 @@
 """Python Interior Point Solver (PIPS).
 """
 
-from numpy import array, Inf, any, isnan, ones, r_, finfo, \
+from numpy import array, inf as Inf, any, isnan, ones, r_, finfo, \
     zeros, dot, absolute, log, flatnonzero as find
 
 from numpy.linalg import norm

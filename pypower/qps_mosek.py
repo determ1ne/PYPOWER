@@ -9,7 +9,7 @@ import re
 
 from sys import stdout, stderr
 
-from numpy import array, Inf, zeros, shape, tril, any
+from numpy import array, inf as Inf, zeros, shape, tril, any
 from numpy import flatnonzero as find
 
 from scipy.sparse import csr_matrix as sparse

@@ -6,7 +6,7 @@
 programming) problems.
 """
 
-from numpy import Inf, ones, zeros, dot
+from numpy import inf as Inf, ones, zeros, dot
 
 from scipy.sparse import csr_matrix as sparse
 

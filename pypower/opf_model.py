@@ -8,7 +8,7 @@ problem formulation.
 
 from sys import stderr
 
-from numpy import array, zeros, ones, Inf, dot, arange, r_
+from numpy import array, zeros, ones, inf as Inf, dot, arange, r_
 from numpy import flatnonzero as find
 from scipy.sparse import lil_matrix, csr_matrix as sparse
 

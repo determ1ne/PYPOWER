@@ -91,7 +91,7 @@ def qps_pypower(H, c=None, A=None, l=None, u=None, xmin=None, xmax=None,
 
     Example from U{http://www.uc.edu/sashtml/iml/chap8/sect12.htm}:
 
-        >>> from numpy import array, zeros, Inf
+        >>> from numpy import array, zeros, inf as Inf
         >>> from scipy.sparse import csr_matrix
         >>> H = csr_matrix(array([[1003.1,  4.3,     6.3,     5.9],
         ...                       [4.3,     2.2,     2.1,     3.9],

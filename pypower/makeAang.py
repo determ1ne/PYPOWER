@@ -5,7 +5,7 @@
 """Construct constraints for branch angle difference limits.
 """
 
-from numpy import array, ones, zeros, r_, Inf, pi, arange
+from numpy import array, ones, zeros, r_, inf as Inf, pi, arange
 from numpy import flatnonzero as find
 from scipy.sparse import csr_matrix as sparse
 

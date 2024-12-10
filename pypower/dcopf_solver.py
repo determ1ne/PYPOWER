@@ -10,7 +10,7 @@ from sys import stderr
 from copy import deepcopy
 
 from numpy import \
-    array, zeros, ones, any, diag, r_, pi, Inf, isnan, arange, c_, dot
+    array, zeros, ones, any, diag, r_, pi, inf as Inf, isnan, arange, c_, dot
 
 from numpy import flatnonzero as find
 
