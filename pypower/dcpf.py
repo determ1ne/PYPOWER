@@ -31,6 +31,6 @@ def dcpf(B, Pbus, Va0, ref, pv, pq):
     Va = copy(Va0)
 
     ## update angles for non-reference buses
-    Va[pvpq] = pplinsolve(B[pvpq.T, pvpq], transpose(Pbus[pvpq] - B[pvpq.T, ref] * Va0[ref]))
+    Va[pvpq] = pplinsolve(B[pvpq.T, pvpq], transpose(Pbus[pvpq] - B[pvpq.T, ref] * Va0[ref])).reshape(-1)
 
     return Va
